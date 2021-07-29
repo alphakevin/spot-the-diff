@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+# Spot the Difference Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a demonstration for using [css-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode) to help people detecting difference of two similar pictures.
 
-## Available Scripts
+Color difference is easily as subtraction of each two pixels, if the pixel are same with less difference, the result is black or dark colors, otherwise the color pops up to the whole image diff result.
 
-In the project directory, you can run:
+```
+P1 = [r1,g1,b1]
+P2 = [r2,g2,b2]
+Pdiff = [r2-r1,g2-g1,b2-b1]
+```
 
-### `yarn start`
+The left and right pictures are not perfectly pixel aligned, so there may be some offset to cause extra noises.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A further idea is to draw pictures on canvas and detect the difference area and output as a list of rectangles, so it will automatically play the game.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The pictures comes from https://www.rd.com/list/spot-the-difference/ and copyright by the original creator.

@@ -1,0 +1,71 @@
+.PicView {
+  flex-grow: 1;
+  flex-shrink: 0;
+  overflow-y: auto;
+  margin: 20px;
+}
+
+.PicView .box {
+  position: relative;
+  margin: 10px auto;
+  /* width: 100%;
+  padding-bottom: 66.67%; */
+  width: 500px;
+  height: 333.5px;
+}
+
+.PicView .box .pic {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: left 0.5s ease-in-out;
+}
+.PicView .pic.left {
+  left: 0;
+  text-align: left;
+}
+.PicView .pic.right {
+  left: 50%;
+  text-align: right;
+}
+
+.PicView .box.inverted {
+  filter: invert(1);
+}
+
+.PicView .box.merged .pic.left,
+.PicView .box.merged .pic.right {
+  left: 25%;
+}
+.PicView .box.merged .pic.right {
+  mix-blend-mode: difference;
+}
+
+.PicView .box .pic img {
+  position: absolute;
+  height: 100%;
+}
+.PicView .pic.left img {
+  left: 0;
+}
+.PicView .pic.right img {
+  right: 0;
+}
+
+.PicView .answer {
+  margin: 8px auto;
+  width: 500px;
+  height: 333.5px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.PicView .answer img {
+  width: 100%;
+}
+
+.PicView .answer.showed {
+  opacity: 1;
+}
