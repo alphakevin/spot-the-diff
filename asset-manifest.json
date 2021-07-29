@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/spot-the-diff/static/css/main.dca22f59.chunk.css",
+    "main.js": "/spot-the-diff/static/js/main.f9df7919.chunk.js",
+    "main.js.map": "/spot-the-diff/static/js/main.f9df7919.chunk.js.map",
+    "runtime-main.js": "/spot-the-diff/static/js/runtime-main.d4e9fb86.js",
+    "runtime-main.js.map": "/spot-the-diff/static/js/runtime-main.d4e9fb86.js.map",
+    "static/js/2.da8135ec.chunk.js": "/spot-the-diff/static/js/2.da8135ec.chunk.js",
+    "static/js/2.da8135ec.chunk.js.map": "/spot-the-diff/static/js/2.da8135ec.chunk.js.map",
+    "static/js/3.2abc984b.chunk.js": "/spot-the-diff/static/js/3.2abc984b.chunk.js",
+    "static/js/3.2abc984b.chunk.js.map": "/spot-the-diff/static/js/3.2abc984b.chunk.js.map",
+    "index.html": "/spot-the-diff/index.html",
+    "static/css/main.dca22f59.chunk.css.map": "/spot-the-diff/static/css/main.dca22f59.chunk.css.map",
+    "static/js/2.da8135ec.chunk.js.LICENSE.txt": "/spot-the-diff/static/js/2.da8135ec.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/spot-the-diff/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4e9fb86.js",
+    "static/js/2.da8135ec.chunk.js",
+    "static/css/main.dca22f59.chunk.css",
+    "static/js/main.f9df7919.chunk.js"
+  ]
+}
