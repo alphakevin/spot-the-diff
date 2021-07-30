@@ -1,6 +1,6 @@
 # Spot the Difference Game
 
-This is a demonstration for using [css-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode) to help people detecting difference of two similar pictures.
+This is a demonstration for using CSS [mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode) to help people detecting difference of two similar pictures.
 
 Color difference is easily as subtraction every two pixels of the two picture, if the pixels are exactly the same or less difference, the result is black or dark colors, otherwise the color pops up to the whole image diff result.
 
